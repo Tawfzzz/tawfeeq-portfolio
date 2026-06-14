@@ -1,32 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tawfeeq | Data Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Hi, I'm Mohamed Tawfeeq</h1>
+<header class="hero">
+    <img src="assets/images/me.jpg" alt="My Photo" class="profile-img" loading="lazy">
 
-<h2>About Me</h2>
-<p>Big Data & Analytics student at Temasek Polytechnic.</p>
+    <h1>Tawfeeq</h1>
+    <p>Big Data & Analytics Student | Aspiring Data Analyst</p>
 
-<h2>Skills</h2>
-<ul>
-    <li>Python</li>
-    <li>SQL</li>
-    <li>Power BI</li>
-    <li>AWS</li>
-</ul>
+    <a href="#projects" class="btn">View My Projects</a>
+</header>
 
-<h2>Projects</h2>
-<ul>
-    <li>AWS Data Pipeline Project</li>
-    <li>Power BI Dashboard</li>
-    <li>Data Cleaning Project</li>
-</ul>
+<section class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Big Data & Analytics student with experience in Python, SQL, Power BI, and AWS cloud data pipelines.
+    </p>
+</section>
 
-<h2>Contact</h2>
-<p>Email: tawfeeq0208@gmail.com</p>
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>AWS Data Pipeline</h3>
+        <p>Built ETL pipeline using AWS S3, Glue, Athena.</p>
+
+        <img src="assets/images/project1.png" loading="lazy">
+
+        <a href="assets/docs/aws-pipeline-report.pdf" target="_blank">View Report (PDF)</a>
+    </div>
+
+    <div class="card">
+        <h3>Power BI Dashboard</h3>
+        <p>Sales analytics dashboard for business insights.</p>
+
+        <img src="assets/images/project2.png" loading="lazy">
+
+        <a href="assets/docs/powerbi-report.pdf" target="_blank">View Report (PDF)</a>
+    </div>
+</section>
+
+<footer>
+    <p>Contact: tawfeeq0208@gmail.com</p>
+</footer>
 
 </body>
 </html>
