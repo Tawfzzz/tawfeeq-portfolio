@@ -1,79 +1,153 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tawfeeq | Data Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
+```
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+```
+
 </head>
 
 <body>
 
+<!-- HERO -->
+
 <header class="hero">
-    <img src="assets/images/me.jpg" alt="My Photo" class="profile-img" loading="lazy">
 
-    <h1>Tawfeeq</h1>
-    <p>Big Data & Analytics Student | Aspiring Data Analyst</p>
+```
+<img src="assets/images/me.jpg" alt="My Photo" class="profile-img" loading="lazy">
 
-    <a href="#projects" class="btn">View My Projects</a>
+<h1>Tawfeeq</h1>
+<p>Big Data & Analytics Student | Aspiring Data Analyst</p>
+
+<a href="#projects" class="btn">View My Projects</a>
+```
+
 </header>
+
+<!-- ABOUT -->
 
 <section class="about">
     <h2>About Me</h2>
     <p>
-        I am a Big Data & Analytics student with experience in Python, SQL, Power BI, and AWS cloud data pipelines.
+        I am a Big Data & Analytics student with hands-on experience in Python, SQL, Power BI, Tableau, Alteryx, and AWS cloud services. 
+        I enjoy working with data to uncover insights, build dashboards, and develop data-driven solutions.
     </p>
 </section>
 
-<section id="projects" class="projects">
+<!-- SKILLS -->
+
+<section class="skills">
+    <h2>Technical Skills</h2>
+
+```
+<div class="skill-container">
+    <span>Python</span>
+    <span>SQL</span>
+    <span>Power BI</span>
+    <span>Tableau</span>
+    <span>AWS (S3, Glue, Athena)</span>
+    <span>Alteryx</span>
+    <span>MySQL</span>
+    <span>Data Visualization</span>
+</div>
+```
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
     <h2>Projects</h2>
 
-    <div class="card">
-        <h3>AWS Data Pipeline</h3>
-        <p>Built ETL pipeline using AWS S3, Glue, Athena.</p>
+```
+<div class="projects">
 
+    <!-- AWS -->
+    <div class="card">
         <img src="assets/images/project1.png" loading="lazy">
 
-        <a href="2400212C-DAEC Project (1).pdf" target="_blank">View Report (PDF)</a>
+        <h3>AWS Data Pipeline Project</h3>
+        <p>
+            Designed and implemented a cloud-based ETL pipeline using AWS S3, Glue, and Athena for data ingestion, transformation, and querying.
+        </p>
+
+        <a href="2400212C-DAEC Project (1).pdf" target="_blank" class="pdf-btn">
+            View Report
+        </a>
     </div>
 
+    <!-- DATA STORYTELLING -->
     <div class="card">
-        <h3>Data Storytelling Project</h3>
-        <p>Created a story using Tableua with various techniques such as Freytag's Pyramid, Big Idea and Linear Storyboard.</p>
-
         <img src="assets/images/project2.png" loading="lazy">
 
-        <a href="SD2_P04_MOHAMED TAWFEEQ_2400212C.pdf" target="_blank">View Report (PDF)</a>
+        <h3>Data Storytelling Project (Tableau)</h3>
+        <p>
+            Created an interactive data story using Tableau applying Freytag’s Pyramid, Big Idea, and Linear Storyboard techniques to communicate insights effectively.
+        </p>
+
+        <a href="SD2_P04_MOHAMED TAWFEEQ_2400212C.pdf" target="_blank" class="pdf-btn">
+            View Report
+        </a>
     </div>
 
-     <div class="card">
-        <h3>Data Mining Project</h3>
-        <p>I used tools in Alteryx .</p>
-
-        <img src="assets/images/project1.png" loading="lazy">
-
-        <a href="DMBA Assignment 1_ MOHAMED TAWFEEQ (1).pdf" target="_blank">View Report (PDF)</a>
-    </div>
-
+    <!-- DATA MINING -->
     <div class="card">
-        <h3>Application and Database development Project</h3>
-        <p>I used tools in visual studio code and postman .</p>
+        <img src="assets/images/project3.png" loading="lazy">
 
-        <img src="assets/images/project1.png" loading="lazy">
+        <h3>Data Mining & Classification Project</h3>
+        <p>
+            Built classification models using Alteryx, performed data preprocessing, feature selection, and evaluated model performance for insights generation.
+        </p>
 
-        <a href="2400212C_Mohamed Tawfeeq-ADEV DBAV-AY2425 Project 2 Template (1).pdf" target="_blank">View Report (PDF)</a>
+        <a href="DMBA Assignment 1_ MOHAMED TAWFEEQ (1).pdf" target="_blank" class="pdf-btn">
+            View Report
+        </a>
     </div>
 
+    <!-- APP DEV -->
     <div class="card">
-        <h3>Article writing</h3>
-        <p>This was one of the projects I did for my soft skills. .</p>
+        <img src="assets/images/project4.png" loading="lazy">
 
-        <img src="assets/images/project1.png" loading="lazy">
+        <h3>Vending Machine Web Application</h3>
+        <p>
+            Developed a full-stack vending machine system using REST APIs, database integration, and CRUD operations with frontend and backend development.
+        </p>
 
-        <a href="2400212C_Mohamed_Tawfeeq_Ecomms Article.pdf" target="_blank">View Report (PDF)</a>
+        <a href="2400212C_Mohamed Tawfeeq-ADEV DBAV-AY2425 Project 2 Template (1).pdf" target="_blank" class="pdf-btn">
+            View Report
+        </a>
     </div>
-    
+
+    <!-- ARTICLE -->
+    <div class="card">
+        <img src="assets/images/project5.png" loading="lazy">
+
+        <h3>Professional Article Writing</h3>
+        <p>
+            Wrote a structured professional article demonstrating communication skills and ability to present ideas clearly in a business context.
+        </p>
+
+        <a href="2400212C_Mohamed_Tawfeeq_Ecomms Article.pdf" target="_blank" class="pdf-btn">
+            View Report
+        </a>
+    </div>
+
+</div>
+```
+
 </section>
+
+<!-- FOOTER -->
 
 <footer>
     <p>Contact: tawfeeq0208@gmail.com</p>
