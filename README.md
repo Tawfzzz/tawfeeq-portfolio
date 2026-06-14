@@ -1,5 +1,5 @@
 # tawfeeq-portfolio
-# Hi, I'm [Your Name] 👋
+# Hi, I'm Mohamed Tawfeeq
 
 ## About Me
 Big Data & Analytics student at Temasek Polytechnic.
