@@ -1,121 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tawfeeq | Data Portfolio</title>
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Tawfeeq | Data Portfolio</title>
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head> <body> <!-- HERO --> <header class="hero">
+<h1>Tawfeeq</h1>
+<p>Big Data & Analytics Student | Aspiring Data Analyst</p>
 
-    <link rel="stylesheet" href="style.css">
-</head>
+<a href="#projects" class="btn">View My Projects</a>
+</header> <!-- ABOUT --> <section class="about"> <h2>About Me</h2> <p> I am a Big Data & Analytics student with hands-on experience in Python, SQL, Power BI, Tableau, Alteryx, and AWS cloud services. I enjoy working with data to uncover insights, build dashboards, and develop data-driven solutions. </p> </section> <section class="education"> <h2>Education</h2> <div class="edu-card"> <h3>Diploma in Big Data and Analytics</h3> <p>Temasek Polytechnic</p> <p>Apr 2024 – Current (Graduating May 2027)</p> <p><b>Relevant Modules:</b></p> <ul> <li>Data Science Essentials</li> <li>Data Visualization and Analytics</li> <li>Data Warehousing and Business Intelligence</li> <li>Data Engineering in the Cloud</li> </ul> </div> <div class="edu-card"> <h3>GCE ‘O’ Levels</h3> <p>Montfort Secondary School</p> <p>Jan 2020 – Dec 2023</p> <ul> <li>Obtained 16 credits</li> <li>Achieved A2 in Combined Humanities (Geography + Social Studies)</li> </ul> </div> </section> <!-- SKILLS --> <section class="skills"> <h2>Technical Skills</h2>
+<div class="skill-container">
+    <span>Python</span>
+    <span>SQL</span>
+    <span>Power BI</span>
+    <span>Tableau</span>
+    <span>AWS (S3, Glue, Athena)</span>
+    <span>Alteryx</span>
+    <span>MySQL</span>
+    <span>Data Visualization</span>
+</div>
+</section> <!-- PROJECTS --> <section id="projects"> <h2>Projects</h2>
+<div class="projects">
 
-<body>
+    <!-- AWS -->
+    <div class="card">
+        <img src="Screenshot 2026-06-14 191352.png" loading="lazy">
 
-<!-- HERO -->
-<header class="hero">
-    <h1>Tawfeeq</h1>
-    <p>Big Data & Analytics Student | Aspiring Data Analyst</p>
-    <a href="#projects" class="btn">View My Projects</a>
-</header>
-
-<!-- ABOUT -->
-<section class="about">
-    <h2>About Me</h2>
-    <p>
-        I am a Big Data & Analytics student with hands-on experience in Python, SQL, Power BI, Tableau, Alteryx, and AWS cloud services. 
-        I enjoy working with data to uncover insights, build dashboards, and develop data-driven solutions.
-    </p>
-</section>
-
-<!-- EDUCATION -->
-<section class="education">
-    <h2>Education</h2>
-
-    <div class="edu-card">
-        <h3>Diploma in Big Data and Analytics</h3>
-        <p>Temasek Polytechnic</p>
-        <p>Apr 2024 – Current (Graduating May 2027)</p>
-        <p>Relevant Modules: Data Science Essentials, Data Visualization and Analytics, Data Warehousing and Business Intelligence, Data Engineering in the Cloud</p>
-    </div>
-
-    <div class="edu-card">
-        <h3>GCE ‘O’ Levels</h3>
-        <p>Montfort Secondary School</p>
-        <p>Jan 2020 – Dec 2023</p>
-        <p>16 credits | Achieved A2 in Combined Humanities (Geography + Social Studies)</p>
-    </div>
-</section>
-
-<!-- SKILLS -->
-<section class="skills">
-    <h2>Technical Skills</h2>
-
-    <div class="skill-container">
-        <span>Python</span>
-        <span>SQL</span>
-        <span>Power BI</span>
-        <span>Tableau</span>
-        <span>AWS</span>
-        <span>Alteryx</span>
-        <span>MySQL</span>
-        <span>Data Visualization</span>
-    </div>
-</section>
-
-<!-- PROJECTS -->
-<section id="projects">
-    <h2>Projects</h2>
-
-    <div class="projects">
-
-        <div class="card">
-            <h3>AWS Data Pipeline Project</h3>
-            <p>Designed a cloud ETL pipeline using AWS S3, Glue, and Athena.</p>
-            <a href="#" class="pdf-btn">View Report</a>
-        </div>
-
-        <div class="card">
-            <h3>Data Storytelling Project</h3>
-            <p>Built Tableau dashboard using Freytag’s Pyramid storytelling framework.</p>
-            <a href="#" class="pdf-btn">View Report</a>
-        </div>
-
-        <div class="card">
-            <h3>Vending Machine Web Application</h3>
-            <p>Developed full-stack system with API integration and database operations.</p>
-            <a href="#" class="pdf-btn">View Report</a>
-        </div>
-
-    </div>
-</section>
-
-<!-- COMMUNITY (NO IMAGES + SPACED) -->
-<section class="community">
-    <h2>Community Service & Volunteering</h2>
-
-    <div class="community-card">
-        <h3>Changi Beach Cleanup</h3>
+        <h3>AWS Data Pipeline Project</h3>
         <p>
-            Participated in a school-organised beach cleanup initiative to promote environmental sustainability and teamwork through hands-on community service.
+            Designed and implemented a cloud-based ETL pipeline using AWS S3, Glue, and Athena for data ingestion, transformation, and querying.
         </p>
+
+        <a href="2400212C-DAEC Project (1).pdf" target="_blank" class="pdf-btn">
+            View Report
+        </a>
     </div>
 
-    <div class="community-card">
-        <h3>Special Needs Digital Wellbeing Workshop Assistant</h3>
+    <!-- DATA STORYTELLING -->
+    <div class="card">
+        <img src="SD.png" loading="lazy">
+
+        <h3>Data Storytelling Project (Tableau)</h3>
         <p>
-            Assisted in facilitating a digital wellbeing workshop at Tampines West Community Club, supporting participants with special needs and ensuring smooth communication and engagement activities.
+            Created an interactive data story using Tableau applying Freytag’s Pyramid, Big Idea, and Linear Storyboard techniques to communicate insights effectively.
         </p>
+
+        <a href="SD2_P04_MOHAMED TAWFEEQ_2400212C.pdf" target="_blank" class="pdf-btn">
+            View Report
+        </a>
     </div>
-</section>
 
-<!-- FOOTER -->
-<footer>
-    <p>Email: tawfeeq0208@gmail.com | Phone: +65 81190544</p>
-</footer>
+    <!-- DATA MINING -->
+    <div class="card">
+        <img src="DMBA.png" loading="lazy">
 
-</body>
-</html>
+        <h3>Data Mining & Classification Project</h3>
+        <p>
+            Built classification models using Alteryx, performed data preprocessing, feature selection, and evaluated model performance for insights generation.
+        </p>
+
+        <a href="DMBA Assignment 1_ MOHAMED TAWFEEQ (1).pdf" target="_blank" class="pdf-btn">
+            View Report
+        </a>
+    </div>
+
+    <!-- APP DEV -->
+    <div class="card">
+        <img src="ADEV.png" loading="lazy">
+
+        <h3>Vending Machine Web Application</h3>
+        <p>
+            Developed a full-stack vending machine system using REST APIs, database integration, and CRUD operations with frontend and backend development.
+        </p>
+
+        <a href="2400212C_Mohamed Tawfeeq-ADEV DBAV-AY2425 Project 2 Template (1).pdf" target="_blank" class="pdf-btn">
+            View Report
+        </a>
+    </div>
+
+    <!-- ARTICLE -->
+    <div class="card">
+        <img src="Article.png" loading="lazy">
+
+        <h3>Professional Article Writing</h3>
+        <p>
+            Wrote a structured professional article demonstrating communication skills and ability to present ideas clearly in a business context.
+        </p>
+
+        <a href="2400212C_Mohamed_Tawfeeq_Ecomms Article.pdf" target="_blank" class="pdf-btn">
+            View Report
+        </a>
+    </div>
+
+</div>
+</section> <section class="community"> <h2>Community Service & Volunteering</h2> <div class="card"> <h3>Changi Beach Cleanup</h3> <p> Participated in a beach cleanup initiative organised with school peers to improve environmental cleanliness and promote sustainability awareness. </p> <img src="beach-cleanup.jpg" loading="lazy"> </div> <div class="card"> <h3>Special Needs Digital Wellbeing Workshop Assistant</h3> <p> Assisted in a digital wellbeing workshop held at Tampines West Community Club, supporting participants with special needs. Helped facilitate activities and ensured smooth communication during the session as part of a class initiative. </p> <img src="workshop.jpg" loading="lazy"> </div> </section> <!-- FOOTER --> <footer> <p>Email: tawfeeq0208@gmail.com Phone: +65 81190544 </p> </footer> </body> </html>
