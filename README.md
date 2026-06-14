@@ -26,4 +26,4 @@ Big Data & Analytics student at Temasek Polytechnic.
 
 ##  Contact
 - Email: tawfeeq0208@gmail.com
-- LinkedIn:(https://www.linkedin.com/in/mohamed-tawfeeq-002a46317/)
+- LinkedIn: https://www.linkedin.com/in/mohamed-tawfeeq-002a46317/
