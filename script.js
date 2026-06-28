@@ -164,15 +164,13 @@ revealElements.forEach(el => {
 
 const heroImage = document.querySelector(".image-wrapper");
 
-window.addEventListener("mousemove", (e) => {
-
-    const x = (window.innerWidth / 2 - e.pageX) / 45;
-
-    const y = (window.innerHeight / 2 - e.pageY) / 45;
-
-    heroImage.style.transform = `translate(${x}px, ${y}px)`;
-
-});
+if (heroImage) {
+    window.addEventListener("mousemove", (e) => {
+        const x = (window.innerWidth / 2 - e.pageX) / 45;
+        const y = (window.innerHeight / 2 - e.pageY) / 45;
+        heroImage.style.transform = `translate(${x}px, ${y}px)`;
+    });
+}
 
 /*=========================================
         HERO TYPING EFFECT
