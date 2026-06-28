@@ -215,19 +215,19 @@ nav{
 
     display:flex;
 
-    justify-content:space-between;
+    justify-content:center;
 
     align-items:center;
 
-    padding:140px 8% 80px;
+    text-align:center;
 
-    gap:60px;
+    padding:140px 8% 80px;
 
 }
 
 .hero-left{
 
-    flex:1;
+    max-width:800px;
 
 }
 
@@ -337,6 +337,8 @@ nav{
 
     display:flex;
 
+    justify-content:center;
+
     gap:18px;
 
     margin-bottom:35px;
@@ -400,6 +402,8 @@ nav{
 .social-icons{
 
     display:flex;
+
+    justify-content:center;
 
     gap:18px;
 
