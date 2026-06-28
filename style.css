@@ -832,66 +832,35 @@ section{
         CONTACT SECTION
 =========================================*/
 
-.contact-grid{
+#contact{
 
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:30px;
-
-}
-
-.contact-card{
-
-    background:rgba(17,24,39,.75);
-    backdrop-filter:blur(18px);
-
-    border:1px solid var(--border);
-
-    border-radius:20px;
-
-    padding:40px 30px;
-
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     text-align:center;
 
-    transition:.35s;
+}
 
-    box-shadow:var(--shadow);
+#contact .section-title{
+
+    width:100%;
+    margin-bottom:60px;
+    text-align:center;
 
 }
 
-.contact-card:hover{
+.contact-grid{
 
-    transform:translateY(-10px);
+    width:100%;
 
-    border-color:var(--primary);
+    display:grid;
 
-    box-shadow:0 20px 45px rgba(59,130,246,.25);
+    grid-template-columns:repeat(auto-fit,minmax(320px,400px));
 
-}
+    justify-content:center;
 
-.contact-card i{
-
-    font-size:45px;
-
-    color:var(--primary);
-
-    margin-bottom:20px;
-
-}
-
-.contact-card h3{
-
-    font-size:22px;
-
-    margin-bottom:12px;
-
-}
-
-.contact-card p{
-
-    color:var(--text2);
-
-    word-break:break-word;
+    gap:30px;
 
 }
 
