@@ -1,157 +1,779 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Tawfeeq | Data Portfolio</title>
 
-```
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-<link rel="stylesheet" href="style.css">
-```
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<!-- HERO -->
+<!--==========================
+        NAVBAR
+===========================-->
 
-<header class="hero">
+<nav>
 
-```
-<img src="assets/images/me.jpg" alt="My Photo" class="profile-img" loading="lazy">
+    <div class="logo">
+        Tawfeeq<span>.</span>
+    </div>
 
-<h1>Tawfeeq</h1>
-<p>Big Data & Analytics Student | Aspiring Data Analyst</p>
+    <ul class="nav-links">
 
-<a href="#projects" class="btn">View My Projects</a>
-```
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <div class="menu-btn">
+
+        <i class="fa-solid fa-bars"></i>
+
+    </div>
+
+</nav>
+
+<!--==========================
+        HERO
+===========================-->
+
+<header class="hero" id="home">
+
+    <div class="hero-left">
+
+        <p class="intro">
+            Hello, I'm
+        </p>
+
+        <h1>
+            Mohamed <span>Tawfeeq</span>
+        </h1>
+
+        <h2>
+
+            Big Data & Analytics Student
+
+        </h2>
+
+        <p class="hero-description">
+
+            Passionate about transforming raw data into meaningful insights
+            through analytics, cloud technologies, machine learning, and
+            interactive dashboards.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn">
+                View Projects
+            </a>
+
+            <a href="resume.pdf" class="btn-outline">
+                Download Resume
+            </a>
+
+        </div>
+
+        <div class="social-icons">
+
+            <a href="#">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="#">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="mailto:tawfeeq0208@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-right">
+
+        <div class="image-wrapper">
+
+            <img src="assets/images/me.jpg"
+                alt="Tawfeeq"
+                loading="lazy">
+
+        </div>
+
+    </div>
 
 </header>
 
-<!-- ABOUT -->
+<!--==========================
+        ABOUT
+===========================-->
 
-<section class="about">
-    <h2>About Me</h2>
-    <p>
-        I am a Big Data & Analytics student with hands-on experience in Python, SQL, Power BI, Tableau, Alteryx, and AWS cloud services. 
-        I enjoy working with data to uncover insights, build dashboards, and develop data-driven solutions.
-    </p>
+<section id="about">
+
+    <div class="section-title">
+
+        <h2>About Me</h2>
+
+        <p>
+
+            A quick introduction about who I am.
+
+        </p>
+
+    </div>
+
+    <div class="about-grid">
+
+        <div class="about-text">
+
+            <h3>
+
+                Turning Data Into Decisions
+
+            </h3>
+
+            <p>
+
+                I am a Big Data & Analytics student with practical experience
+                in developing cloud-based data pipelines, building interactive
+                dashboards, and applying data mining techniques.
+
+            </p>
+
+            <p>
+
+                My technical experience includes Python, SQL, Tableau,
+                Power BI, Alteryx, MySQL, and AWS cloud services including
+                S3, Glue, and Athena.
+
+            </p>
+
+            <p>
+
+                I enjoy solving real-world business problems through
+                data-driven solutions while continuously learning
+                emerging technologies.
+
+            </p>
+
+        </div>
+
+        <div class="about-cards">
+
+            <div class="info-card">
+
+                <i class="fas fa-user-graduate"></i>
+
+                <h4>Education</h4>
+
+                <p>
+
+                    Diploma in Big Data & Analytics
+
+                </p>
+
+            </div>
+
+            <div class="info-card">
+
+                <i class="fas fa-code"></i>
+
+                <h4>Projects</h4>
+
+                <p>
+
+                    5+ Academic Projects
+
+                </p>
+
+            </div>
+
+            <div class="info-card">
+
+                <i class="fas fa-cloud"></i>
+
+                <h4>Cloud</h4>
+
+                <p>
+
+                    AWS S3 • Glue • Athena
+
+                </p>
+
+            </div>
+
+            <div class="info-card">
+
+                <i class="fas fa-chart-line"></i>
+
+                <h4>Goal</h4>
+
+                <p>
+
+                    Aspiring Data Analyst
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
 </section>
 
-<!-- SKILLS -->
+<!--==========================
+        SKILLS
+===========================-->
 
-<section class="skills">
-    <h2>Technical Skills</h2>
+<section id="skills">
 
-```
-<div class="skill-container">
-    <span>Python</span>
-    <span>SQL</span>
-    <span>Power BI</span>
-    <span>Tableau</span>
-    <span>AWS (S3, Glue, Athena)</span>
-    <span>Alteryx</span>
-    <span>MySQL</span>
-    <span>Data Visualization</span>
-</div>
-```
+    <div class="section-title">
+
+        <h2>Technical Skills</h2>
+
+        <p>
+
+            Technologies and tools that I use throughout my projects.
+
+        </p>
+
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+
+            <i class="fab fa-python"></i>
+
+            <h4>Python</h4>
+
+        </div>
+
+        <div class="skill-card">
+
+            <i class="fas fa-database"></i>
+
+            <h4>SQL</h4>
+
+        </div>
+
+        <div class="skill-card">
+
+            <i class="fas fa-chart-column"></i>
+
+            <h4>Power BI</h4>
+
+        </div>
+
+        <div class="skill-card">
+
+            <i class="fas fa-chart-pie"></i>
+
+            <h4>Tableau</h4>
+
+        </div>
+
+        <div class="skill-card">
+
+            <i class="fab fa-aws"></i>
+
+            <h4>AWS</h4>
+
+            <small>S3 • Glue • Athena</small>
+
+        </div>
+
+        <div class="skill-card">
+
+            <i class="fas fa-gears"></i>
+
+            <h4>Alteryx</h4>
+
+        </div>
+
+        <div class="skill-card">
+
+            <i class="fas fa-server"></i>
+
+            <h4>MySQL</h4>
+
+        </div>
+
+        <div class="skill-card">
+
+            <i class="fas fa-chart-line"></i>
+
+            <h4>Data Visualization</h4>
+
+        </div>
+
+    </div>
 
 </section>
 
-<!-- PROJECTS -->
+<!--==========================
+        PROJECTS
+===========================-->
 
 <section id="projects">
-    <h2>Projects</h2>
 
-```
-<div class="projects">
+    <div class="section-title">
 
-    <!-- AWS -->
-    <div class="card">
-        <img src="assets/images/project1.png" loading="lazy">
+        <h2>Featured Projects</h2>
 
-        <h3>AWS Data Pipeline Project</h3>
         <p>
-            Designed and implemented a cloud-based ETL pipeline using AWS S3, Glue, and Athena for data ingestion, transformation, and querying.
+            A selection of academic and technical projects showcasing my experience in
+            data analytics, cloud technologies, business intelligence, and software development.
         </p>
 
-        <a href="2400212C-DAEC Project (1).pdf" target="_blank" class="pdf-btn">
-            View Report
-        </a>
     </div>
 
-    <!-- DATA STORYTELLING -->
-    <div class="card">
-        <img src="assets/images/project2.png" loading="lazy">
+    <div class="projects-grid">
 
-        <h3>Data Storytelling Project (Tableau)</h3>
-        <p>
-            Created an interactive data story using Tableau applying Freytag’s Pyramid, Big Idea, and Linear Storyboard techniques to communicate insights effectively.
-        </p>
+        <!-- AWS -->
 
-        <a href="SD2_P04_MOHAMED TAWFEEQ_2400212C.pdf" target="_blank" class="pdf-btn">
-            View Report
-        </a>
+        <div class="project-card">
+
+            <div class="project-image">
+
+                <img src="assets/images/project1.png"
+                    alt="AWS Data Pipeline"
+                    loading="lazy">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">
+
+                    Cloud Computing
+
+                </span>
+
+                <h3>
+
+                    AWS Data Pipeline Project
+
+                </h3>
+
+                <p>
+
+                    Designed and implemented a cloud-based ETL pipeline using AWS
+                    S3, Glue, and Athena for data ingestion, transformation,
+                    and querying.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>AWS</span>
+
+                    <span>S3</span>
+
+                    <span>Glue</span>
+
+                    <span>Athena</span>
+
+                    <span>SQL</span>
+
+                </div>
+
+                <a href="2400212C-DAEC Project (1).pdf"
+                    target="_blank"
+                    class="project-btn">
+
+                    View Report
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- TABLEAU -->
+
+        <div class="project-card">
+
+            <div class="project-image">
+
+                <img src="assets/images/project2.png"
+                    alt="Tableau Project"
+                    loading="lazy">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">
+
+                    Data Visualization
+
+                </span>
+
+                <h3>
+
+                    Data Storytelling Project
+
+                </h3>
+
+                <p>
+
+                    Developed an interactive Tableau dashboard using Freytag's
+                    Pyramid, Big Idea, and Linear Storyboard principles to
+                    effectively communicate business insights.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>Tableau</span>
+
+                    <span>Dashboard</span>
+
+                    <span>Storytelling</span>
+
+                </div>
+
+                <a href="SD2_P04_MOHAMED TAWFEEQ_2400212C.pdf"
+                    target="_blank"
+                    class="project-btn">
+
+                    View Report
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- DATA MINING -->
+
+        <div class="project-card">
+
+            <div class="project-image">
+
+                <img src="assets/images/project3.png"
+                    alt="Data Mining"
+                    loading="lazy">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">
+
+                    Machine Learning
+
+                </span>
+
+                <h3>
+
+                    Data Mining & Classification
+
+                </h3>
+
+                <p>
+
+                    Built predictive classification models using Alteryx,
+                    performed preprocessing, feature engineering,
+                    and evaluated model performance.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>Alteryx</span>
+
+                    <span>Classification</span>
+
+                    <span>Analytics</span>
+
+                </div>
+
+                <a href="DMBA Assignment 1_ MOHAMED TAWFEEQ (1).pdf"
+                    target="_blank"
+                    class="project-btn">
+
+                    View Report
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- APP DEV -->
+
+        <div class="project-card">
+
+            <div class="project-image">
+
+                <img src="assets/images/project4.png"
+                    alt="Vending Machine"
+                    loading="lazy">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">
+
+                    Web Development
+
+                </span>
+
+                <h3>
+
+                    Vending Machine Web Application
+
+                </h3>
+
+                <p>
+
+                    Developed a full-stack vending machine application using
+                    REST APIs, CRUD operations, frontend integration,
+                    and backend database management.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>HTML</span>
+
+                    <span>REST API</span>
+
+                    <span>MySQL</span>
+
+                </div>
+
+                <a href="2400212C_Mohamed Tawfeeq-ADEV DBAV-AY2425 Project 2 Template (1).pdf"
+                    target="_blank"
+                    class="project-btn">
+
+                    View Report
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- ARTICLE -->
+
+        <div class="project-card">
+
+            <div class="project-image">
+
+                <img src="assets/images/project5.png"
+                    alt="Professional Article"
+                    loading="lazy">
+
+            </div>
+
+            <div class="project-content">
+
+                <span class="project-category">
+
+                    Professional Communication
+
+                </span>
+
+                <h3>
+
+                    Professional Article Writing
+
+                </h3>
+
+                <p>
+
+                    Produced a structured business article demonstrating
+                    effective communication, critical thinking,
+                    and professional writing skills.
+
+                </p>
+
+                <div class="tech-stack">
+
+                    <span>Research</span>
+
+                    <span>Writing</span>
+
+                    <span>Business</span>
+
+                </div>
+
+                <a href="2400212C_Mohamed_Tawfeeq_Ecomms Article.pdf"
+                    target="_blank"
+                    class="project-btn">
+
+                    View Report
+
+                </a>
+
+            </div>
+
+        </div>
+
     </div>
-
-    <!-- DATA MINING -->
-    <div class="card">
-        <img src="assets/images/project3.png" loading="lazy">
-
-        <h3>Data Mining & Classification Project</h3>
-        <p>
-            Built classification models using Alteryx, performed data preprocessing, feature selection, and evaluated model performance for insights generation.
-        </p>
-
-        <a href="DMBA Assignment 1_ MOHAMED TAWFEEQ (1).pdf" target="_blank" class="pdf-btn">
-            View Report
-        </a>
-    </div>
-
-    <!-- APP DEV -->
-    <div class="card">
-        <img src="assets/images/project4.png" loading="lazy">
-
-        <h3>Vending Machine Web Application</h3>
-        <p>
-            Developed a full-stack vending machine system using REST APIs, database integration, and CRUD operations with frontend and backend development.
-        </p>
-
-        <a href="2400212C_Mohamed Tawfeeq-ADEV DBAV-AY2425 Project 2 Template (1).pdf" target="_blank" class="pdf-btn">
-            View Report
-        </a>
-    </div>
-
-    <!-- ARTICLE -->
-    <div class="card">
-        <img src="assets/images/project5.png" loading="lazy">
-
-        <h3>Professional Article Writing</h3>
-        <p>
-            Wrote a structured professional article demonstrating communication skills and ability to present ideas clearly in a business context.
-        </p>
-
-        <a href="2400212C_Mohamed_Tawfeeq_Ecomms Article.pdf" target="_blank" class="pdf-btn">
-            View Report
-        </a>
-    </div>
-
-</div>
-```
 
 </section>
 
-<!-- FOOTER -->
+<!--==========================
+        CONTACT
+===========================-->
+
+<section id="contact">
+
+    <div class="section-title">
+
+        <h2>Let's Connect</h2>
+
+        <p>
+
+            I'm always open to internship opportunities,
+            collaborations, and networking.
+
+        </p>
+
+    </div>
+
+    <div class="contact-grid">
+
+        <div class="contact-card">
+
+            <i class="fas fa-envelope"></i>
+
+            <h3>Email</h3>
+
+            <p>
+
+                tawfeeq0208@gmail.com
+
+            </p>
+
+        </div>
+
+        <div class="contact-card">
+
+            <i class="fab fa-linkedin"></i>
+
+            <h3>LinkedIn</h3>
+
+            <p>
+
+                linkedin.com/in/tawfeeq
+
+            </p>
+
+        </div>
+
+        <div class="contact-card">
+
+            <i class="fab fa-github"></i>
+
+            <h3>GitHub</h3>
+
+            <p>
+
+                github.com/tawfeeq
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--==========================
+        FOOTER
+===========================-->
 
 <footer>
-    <p>Contact: tawfeeq0208@gmail.com</p>
+
+    <h2>
+
+        Mohamed Tawfeeq
+
+    </h2>
+
+    <p>
+
+        Big Data & Analytics Student
+
+    </p>
+
+    <div class="footer-icons">
+
+        <a href="#">
+
+            <i class="fab fa-linkedin"></i>
+
+        </a>
+
+        <a href="#">
+
+            <i class="fab fa-github"></i>
+
+        </a>
+
+        <a href="mailto:tawfeeq0208@gmail.com">
+
+            <i class="fas fa-envelope"></i>
+
+        </a>
+
+    </div>
+
+    <p class="copyright">
+
+        © 2026 Mohamed Tawfeeq. All Rights Reserved.
+
+    </p>
+
 </footer>
 
+<!--==========================
+    BACK TO TOP
+===========================-->
+
+<button id="topBtn">
+
+    <i class="fas fa-arrow-up"></i>
+
+</button>
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
